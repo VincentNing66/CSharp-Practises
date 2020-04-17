@@ -11,7 +11,7 @@ namespace practise
             Console.WriteLine("This console contains a few different c# fundemental practises");
 			Console.WriteLine("follow the menu to choose the one to run!");
             Console.WriteLine("1.CeckoutMachine(getters and setters)");
-			Console.WriteLine("2.People(Inheritance)");
+			Console.WriteLine("2.StudentsN'Teachers(Inheritance)");
             var decision = Console.ReadLine();
             switch (decision)
 			{
