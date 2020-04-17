@@ -43,7 +43,7 @@ namespace practise
     }
     class Person
     {
-        private string name;
+        protected string name; //Encapsulation
         private int age;
 
         public Person(string _name, int _age)// Constructor 
@@ -51,7 +51,7 @@ namespace practise
             name = _name;
             age = _age;
         }
-        public void sayHello()
+        public virtual void sayHello()
         {
             Console.WriteLine($"Hello, my name is {name}, I am {age} years old.");
         }
@@ -71,19 +71,22 @@ namespace practise
             Console.WriteLine("My favorite paper is : " + a);
         }
 
+        public override void sayHello()
+        {
+            base.sayHello();
+            Console.WriteLine("Overidden (polymorphism)!");
+        }
 
     }
     class Teacher : Person
     {
         private int teacherId;
         private string paper;
-        private string name;
 
         public Teacher(string _name, int _age, string _paper, int _teacherId) : base (_name, _age)
         {
             teacherId = _teacherId;
             paper = _paper;
-            name = _name;
         }
 
         public void listPaper()
@@ -92,10 +95,5 @@ namespace practise
         }
     }
 
-    class Paper
-    {
-        public string PaperCode{ get; set; }
-        public string PaperDescription{ get; set; }
-
-    }
+    
 }
