@@ -1,0 +1,13 @@
+C:\Users\admin\Music\file\bin\Debug\netcoreapp3.1\file.exe
+C:\Users\admin\Music\file\bin\Debug\netcoreapp3.1\file.deps.json
+C:\Users\admin\Music\file\bin\Debug\netcoreapp3.1\file.runtimeconfig.json
+C:\Users\admin\Music\file\bin\Debug\netcoreapp3.1\file.runtimeconfig.dev.json
+C:\Users\admin\Music\file\bin\Debug\netcoreapp3.1\file.dll
+C:\Users\admin\Music\file\bin\Debug\netcoreapp3.1\file.pdb
+C:\Users\admin\Music\file\obj\Debug\netcoreapp3.1\file.csprojAssemblyReference.cache
+C:\Users\admin\Music\file\obj\Debug\netcoreapp3.1\file.csproj.CoreCompileInputs.cache
+C:\Users\admin\Music\file\obj\Debug\netcoreapp3.1\file.AssemblyInfoInputs.cache
+C:\Users\admin\Music\file\obj\Debug\netcoreapp3.1\file.AssemblyInfo.cs
+C:\Users\admin\Music\file\obj\Debug\netcoreapp3.1\file.dll
+C:\Users\admin\Music\file\obj\Debug\netcoreapp3.1\file.pdb
+C:\Users\admin\Music\file\obj\Debug\netcoreapp3.1\file.genruntimeconfig.cache
